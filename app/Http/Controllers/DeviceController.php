@@ -60,7 +60,7 @@ class DeviceController extends Controller
         $device->user_id = $request->user_id;
        
         $result = $device->save();
-        $result = "";
+//        $result = "";
         if($result)
         {
             $data = ['result' => 'data has been saved'];
